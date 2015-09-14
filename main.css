@@ -130,13 +130,11 @@
 -o-background-size: cover;
 background-size: cover;
   width: 100%;
-  min-height=1000px;
   position: relative;
   border-bottom: 2px solid rgb(200,200,220);
 
 
 }
-
 .main-description .container h1 {
   font-family: Helvetica;
   font-size:65px;
