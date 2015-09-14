@@ -18,12 +18,101 @@
 
     <div class="main-description jumbotron">
       <div class="container">
-        <h1><br><br><br><br><br><br><br><br><br>Hong Joon, Choi</h1>
-        <p>Student of Hong Kong University of Science and Technology.</p>
+        <h1><br><br><br><br><br><br><br><br>Hong Joon, Choi<br></h1>
+        <p><br>Student of Hong Kong University of Science and Technology.</p>
       </div>
     </div>
 
-    <div class="learn-more">
+
+    <div class="container" style="margin-top:200px;margin-bottom:200px;">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
+          <li data-target="#myCarousel" data-slide-to="6"></li>
+          <li data-target="#myCarousel" data-slide-to="7"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+
+          <div class="item active" align="middle">
+            <img src="images/thumb10.jpg" alt="Flower" style="height:640px;">
+            <div class="carousel-caption">
+              <h4>HKUST Robotics team - Robocon 2015</h4>
+            </div>
+          </div>
+
+          <div class="item" align="middle">
+              <img src="images/thumb1.jpg" alt="Chania" style="height:640px;">
+              <div class="carousel-caption">
+                <h4>KSA band members</h4>
+              </div>
+          </div>
+
+          <div class="item" align="middle">
+            <img src="images/thumb9.jpeg" alt="Chania" style="height:640px;">
+            <div class="carousel-caption">
+              <h4>I'm playing drums!</h4>
+            </div>
+          </div>
+
+          <div class="item" align="middle">
+            <img src="images/thumb7.jpg" alt="Flower" style="height:640px;">
+            <div class="carousel-caption">
+              <h4>With my IB Computer Science teacher</h4>
+            </div>
+          </div>
+
+          <div class="item" align="middle">
+            <img src="images/thumb5.jpg" alt="Flower" style="height:640px;">
+            <div class="carousel-caption">
+              <h4>Hackathon event, P2PFX</h4>
+            </div>
+          </div>
+
+          <div class="item" align="middle">
+            <img src="images/thumb2.jpg" alt="Flower" style="height:640px;">
+            <div class="carousel-caption">
+              <h4>Ski with my best friends, Korea</h4>
+            </div>
+          </div>
+
+          <div class="item" align="middle">
+            <img src="images/thumb11.jpg" alt="Flower" style="height:640px;">
+            <div class="carousel-caption">
+              <h4>Collapsing wave function - Fiery Dragon 2015</h4>
+            </div>
+          </div>
+
+          <div class="item" align="middle">
+            <img src="images/thumb12.jpg" alt="Flower" style="height:640px;">
+            <div class="carousel-caption">
+              <h4>Band performance @ Hall8&9 party</h4>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="learn-more" style="margin-bottom:200px;">
   	  <div class="container">
     		<div class="row">
     	    <div class="col-md-12" style="font-family:Helvetica color:#000000">
@@ -54,61 +143,14 @@
   	  </div>
     </div>
 
-    <div class="neighborhood-guides">
-        <div class="container jumbotron">
-            <h2>Neighborhood Guides</h2>
-            <p> Not sure where to stay? We have created neighborhood guides for cities all around the world.</p>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <img src="images/thumb1.jpg">
-                    </div>
-                    <div class="thumbnail">
-                        <img src="images/thumb2.jpg">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <img src="images/thumb3.jpg">
-                    </div>
-                    <div class="thumbnail">
-                        <img src="images/thumb4.jpg">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <img src="images/thumb9.jpeg">
-                    </div>
-                    <div class="thumbnail">
-                        <img src="images/thumb5.jpg">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="thumbnail">
-                        <img src="images/thumb10.jpg">
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="thumbnail">
-                        <img src="images/thumb7.jpg">
-                    </div>
-                    <div class="thumbnail">
-                        <img src="images/thumb8.jpg">
-                    </div>
-                </div>
 
-            </div>
-        </div>
-    </div>
 
     <div id="sidebar" onmouseover="sidebarToggle()" onmouseout="sidebarToggleOut()" class="right-overlap">
       <div class="container">
         <div class="row">
           <div id="sidebarHidden" vertical-align="center" class="right-overlap">
             <ul class="list-unstyled"  style="padding:10px;">
-              <h3><span class="label label-default">My profile</span></h3>
+              <h3><button type="button" onclick="pinSidebar()" class="btn btn-lg btn-default">⇩ My profile</button></h3>
               <li><p><a href="index.html" id="b"><span class="glyphicon glyphicon-home gi-10x"></span></a></p></li>
               <li><p><a href="myProfile.html"><span class="glyphicon glyphicon-user gi-10x"></span></a></p></li>
               <li><p><a href="myTimeline.html"><span class="glyphicon glyphicon-road gi-10x"></span></a></p></li>
@@ -120,11 +162,11 @@
           </div>
           <div id="sidebarShown" vertical-align="center" class="right-overlap">
             <ul id="sidebarList" class="fade list-unstyled"  style="padding:10px;">
-              <h3><span class="label label-default">My profile</span></h3>
+              <h3><button type="button" onclick="pinSidebar()" class="btn btn-lg btn-default">⇩ My profile</button></h3>
               <li><p><a href="index.html"><span class="glyphicon glyphicon-home"><a href="index.html"style="font-family:Helvetica;">  Profile</a></span></a></p></li>
               <li><p><a href="myProfile.html"><span class="glyphicon glyphicon-user gi-10x"><a href="myProfile.html"style="font-family:Helvetica;">  Experiences</a></span></a></p></li>
               <li><p><a href="myTimeline.html"><span class="glyphicon glyphicon-road gi-10x"><a href="myTimeline.html"style="font-family:Helvetica;">  Timeline</a></span></a></p></li>
-              <li><p><a href="compStuff.html"><span class="glyphicon glyphicon-file gi-10x"><a href="compStuff.html"style="font-family:Helvetica;">  Projects</a></span></a></p></li>
+              <li><p><a href="compStuff.html"><span class="glyphicon glyphicon-file gi-10x"><a href="compStuff.html"style="font-family:Helvetica;">  Portfolio</a></span></a></p></li>
               <li><p><a href="contactMe.html"><span class="glyphicon glyphicon-envelope gi-10x"><a href="contactMe.html"style="font-family:Helvetica;">  Contact</a></span></a></p></li>
             </ul>
           </div>
@@ -133,26 +175,33 @@
       </div>
     </div class="sidebar">
 
-  <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
     <script>
+    var sidebarPinned=false;
+    function pinSidebar()
+    {
+      sidebarPinned=!sidebarPinned;
+    }
     function sidebarToggle()
     {
       //document.getElementById("sidebarShown").style.visibility = "visible";
-      //document.getElementById("sidebarHidden").style.visibility = "hidden";
+      document.getElementById("sidebarHidden").style.visibility = "hidden";
       document.getElementById("sidebarBack").style.width = "18%";
       document.getElementById("sidebarList").style.opacity = "1";
     }
     function sidebarToggleOut()
     {
       //document.getElementById("sidebarShown").style.visibility = "hidden";
-      //document.getElementById("sidebarHidden").style.visibility = "visible";
-      document.getElementById("sidebarBack").style.width = "0%";
-      document.getElementById("sidebarList").style.opacity = "0";
+      if (!sidebarPinned)
+      {
+        document.getElementById("sidebarHidden").style.visibility = "visible";
+        document.getElementById("sidebarBack").style.width = "0%";
+        document.getElementById("sidebarList").style.opacity = "0";
+      }
     }
     </script>
   </body>

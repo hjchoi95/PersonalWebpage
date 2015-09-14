@@ -123,7 +123,7 @@
 
 
 .main-description {
-  background-image:url('images/rand.jpg');
+  background-image:url('images/profile.jpg');
   background-repeat: no-repeat;
   -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -133,6 +133,18 @@ background-size: cover;
   min-height=1000px;
   position: relative;
   border-bottom: 2px solid rgb(200,200,220);
+
+
+}
+
+.main-description .container h1 {
+  font-family: Helvetica;
+  font-size:65px;
+  color: #ddd;
+  text-shadow: 3px 3px 3px #444;
+
+
+
 }
 
 .jumbotron h1 {
