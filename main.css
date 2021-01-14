@@ -13,7 +13,7 @@
     left: 0;
 }
 .compBackImage {
-    background-image: url("images/compBack.png");
+    background-image: url("images/compBack2.jpg");
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -237,8 +237,6 @@ background-size: cover;
   padding-bottom: 20px;
   position: relative;
 }
-
-
 
 .text {
   font-family: Helvetica;

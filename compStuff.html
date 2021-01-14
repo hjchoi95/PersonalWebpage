@@ -17,6 +17,93 @@
     </div>
 
     <div class="learn-more-dark">
+
+      <div class="container">
+    		<div class="row">
+          <div class="col-md-6">
+      			<img src="images/jigsaw_puzzle_solver.gif" height="320px" style="margin: 20px 0px 0px 0px"></img>
+  	      </div>
+    	    <div class="col-md-6">
+      			<h1>Jigsaw Puzzle Solver</h1>
+              <b><i style="color: #0E6251;">Python, Numpy, OpenCV</i></b></br>
+              <a href="https://github.com/hjchoi95/jigsaw_puzzle_solver">https://github.com/hjchoi95/jigsaw_puzzle_solver</a></br></br>
+              <font size="3"><p>
+                slices image randomly and re-assemble them back to original image</br></br>
+                - <b>pre-compute similarity matrix</b> for all stitching directions and orientations</br>
+                - used <b>hashmap</b> to minimize search time <i>(to be implemented soon)</i> </br>
+                - used <b>cache</b> mechanism to minimize redundant computation </br>
+                - automatically switch to <b>parallel processing</b> for 100+@ image fragments </br>
+              </font>
+            </p>
+  	      </div>
+        </div>
+  	  </div>
+
+
+      <div class="container">
+    		<div class="row">
+          <div class="col-md-6">
+      			<img src="images/solar_system.jpg" height="280px" style="margin: 20px 0px 0px 0px"></img>
+  	      </div>
+    	    <div class="col-md-6">
+      			<h1>Interactive Solar System</h1>
+              <b><i style="color: #0E6251;">JavaScript, WebGL, Three.js</i></b></br>
+              <a href="https://hjchoi95.github.io/solar_system_webgl/">https://hjchoi95.github.io/solar_system_webgl/</a></br></br>
+              <font size="3"><p>
+                Solar System visualization with WebGL.</br></br>
+                - playback and camera controls </br>
+                - on/off graphic features (wireframes, grids, sperical skybox) </br>
+                - dynamically create asteroid clusters + graphical optimization</br>
+                - <b>cloud layer on Earth (Its really aesthetic!)</b>, planetary ring around Saturn.</br>
+              </font>
+            </p>
+  	      </div>
+        </div>
+  	  </div>
+
+
+      <div class="container">
+    		<div class="row">
+          <div class="col-md-6">
+      			<img src="images/guacamoli.jpg" height="240px" style="margin: 20px 0px 0px 0px"></img>
+  	      </div>
+    	    <div class="col-md-6">
+      			<h1>Guacamoli</h1>
+              <b><i style="color: #0E6251;">Javascript, Node.js</i></b></br>
+              <a href="www.guacamoli.ust.hk">https://www.guacamoli.ust.hk</a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              <a href="https://www.facebook.com/guacamoliust/">https://www.facebook.com/guacamoliust/</a></br>
+              <b><a href="https://docs.google.com/presentation/d/1lA_WQP9jw7LMz4KVQpLmLpEupQyLuxjB/edit#slide=id.p1"> System Architecture </a></b></br></br>
+              <font size="3"><p>Web application for viewing and rating university canteen meal offereings and their <b>nutritional values.</b></br></br>
+                <b>Back-end & Dev-ops:</b> Me </br>
+                <b>Front-end dev:</b> Nayeon Lee (CSE student)</br>
+                <b>Project management:</b> Jaewook Lee (GBUS student)</br>
+
+              </font>
+            </p>
+  	      </div>
+        </div>
+  	  </div>
+
+      <div class="container">
+    		<div class="row">
+          <div class="col-md-6">
+      			<img src="images/shell.JPG" height="200px" style="margin: 20px 0px 0px 0px"></img>
+  	      </div>
+    	    <div class="col-md-6">
+      			<h1>Replicate of Unix Shell</h1>
+              <b><i style="color: #0E6251;">C, POSIX, Unix-like OS</i></b></br>
+              <a href="https://github.com/hjchoi95/shell">https://github.com/hjchoi95/shell</a></br></br>
+              <font size="3">
+                  It behaves almost exactly as every other command-line user interface does in Unix-like Operating Systems.</br></br>
+                  - traverse directories with cd command </br>
+                  - resolves all other linux commands with argv, ex) <b><i>sudo rm -r /</i></b> </br>
+                  - run process in background. ex) <b><i>./server.js&</i></b></br>
+                  - redirect stdin and stdout pipeline with < command.</br>&nbsp&nbsp ex) <b><i> ls -a < wc -l < linecount.txt </i></b></br>
+
+  	      </div>
+        </div>
+  	  </div>
+
   	  <div class="container">
     		<div class="row">
           <div class="col-md-6">
@@ -24,8 +111,14 @@
   	      </div>
     	    <div class="col-md-6">
       			<h1>Buy Poker</h1>
-      			<p>I teamed up with Abishek, MAEC/COMP student to create a modified Poker game based on Texas Hold'em rules. You have to match against your AI or Human opponent over network to outplay your opponents.
-              Abishek wrote the whole AI module for this game.
+              <b><i style="color: #0E6251;">C#, Unity</i></b></br>
+              <a href="https://github.com/hjchoi95/Buy_Poker">https://github.com/hjchoi95/Buy_Poker</a></br></br>
+              <font size="3"><p>Texas Hold'em based card game with AI and <b>multiplayer capabilities</b>.</br>
+                                - Single button for <b>automated matchmaking.</b></br>
+                                - Peer to Peer communication with <b>RPC (Remote Procedure Calls)</b></br>
+                                - player states are synchronized every step of the game.</br>
+                                - Implemented <b>interpolation and Extrapolation</b> for smooth gameplay.</br></br>
+      			             I teamed up with Abishek (CSE/MAEC student) for this project. </font>
             </p>
   	      </div>
         </div>
@@ -41,18 +134,40 @@
   	      </div>
     	    <div class="col-md-6">
       			<h1>Linear regression</h1>
-      			<p>
-              Implemented matrix class and graphing functionality from SCRATCH. </br>
-              Created software which computes best-fit polynomial on any dataset in 2d coordinates<br>
-              Computes the best-fit equation and draws a graph of 4th degree polynomial in less than a second.<br>
-              it calculates for logarithmic and trignomitric functions as well.
+            <b><i style="color: #0E6251;">C++</i></b></br></br>
+      			<font size="3"><p>
+              Manually implemented <b>matrix operations and graphing functionality</b>. </br></br>
+              Draws regression curve of any mathematical functions, using least square approximation.
 
-            </p>
+            </p></font>
   	      </div>
         </div>
   	  </div>
     </div>
 
+    <div class="learn-more-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-5"  >
+            </br></br>
+            <iframe src="https://www.facebook.com/plugins/video.php?height=322&href=https%3A%2F%2Fwww.facebook.com%2Fhongjoon.choi.56%2Fvideos%2F814213501976009%2F&show_text=false&width=400" width="400" height="230" style="border:none;overflow:hidden"
+                    scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true">
+            </iframe>
+          </div>
+          <div class="col-md-6">
+            <h1>Snake on STM32 microproessor</h1>
+            <b><i style="color: #0E6251;">C, STM32</i></b></br></br>
+            <font size="3"><p>
+              Snake game on LED screen with Xbox controller. </br>
+
+              Created this during Robotics Team training sessions.</br>
+
+            </p></font>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="learn-more-dark">
   	  <div class="container">
@@ -63,11 +178,14 @@
   	      </div>
     	    <div class="col-md-6">
       			<h1>Paint</h1>
-      			<p>Paint program built with QT3.2 framework on Linux platform.<br>
-              Supports various drawing tools such as shapes, fill tool, color picker and more.<br>
-              Implemeted undo and redo functionality as well as image layer system.
+            <b><i style="color: #0E6251;">C++, QT</i></b></br>
+            <a href="https://github.com/hjchoi95/qtPaint">https://github.com/hjchoi95/qtPaint</a></br></br>
+      			<font size="3"><p> Linux Paint application with QT which supports <b>image layers</b> and various drawing features
+              such as shapes, <b>fill tool (watershed algorithm)</b>, color picker and more.<br>
+              Implemeted <b>undo and redo</b> functionality as well. </br>
+              used <b>C++ Generics</b> extensively to minimize code redundancy
 
-            </p>
+            </p></font>
   	      </div>
         </div>
   	  </div>
@@ -81,11 +199,12 @@
   	      </div>
     	    <div class="col-md-6">
       			<h1>2D Shooter game</h1>
-      			<p>Simple 2D platformer shooting game with parallex scrolling. </br></br>
+            <b><i style="color: #0E6251;">C#, Unity</i></b></br></br>
+      			<font size="3"><p>2D platformer shooting game with <b>parallex scrolling</b> and <b>search based AI</b>. </br></br>
               AI players search and target nearest visible enemy, </br>
               while keeping minimum distance between teammates (for aesthetic purposes) </br></br>
-              Highly customizable weapon settings, from bolt-action, to automatic rifles and shotgun.
-            </p>
+              <b>Highly customizable weapon settings</b>, from bolt-action, to automatic rifles and shotgun.
+            </p></font>
   	      </div>
         </div>
   	  </div>
@@ -101,10 +220,11 @@
           <div class="col-md-1"></div>
           <div class="col-md-6">
             <h1>Arithmetic expression evaluator</h1>
-            <p>Created stack to store each tokens in the order of manipulation <br>
-              Calculates any arithmetic in the correct order, and supports floating numbers.
+            <b><i style="color: #0E6251;">C++</i></b></br></br>
+            <font size="3"><p>Calculates any arithmetic in the correct order, and supports floating numbers. <br>
+                Created <b>stack</b> to store each tokens in the order of manipulation
 
-            </p>
+            </p></font>
           </div>
         </div>
       </div>
@@ -118,10 +238,11 @@
           </div>
           <div class="col-md-6">
             <h2>Pathfinder</h2>
-            <p>Computes best path from source to destination, given the cost matrix of any graph.<br>
-              Implemented djikstra algorithm.
+            <b><i style="color: #0E6251;">Java, Greenfoot</i></b></br></br>
+            <font size="3"><p>Computes best path from source to destination, corresponding to cost matrix.<br>
+              Implemented <b>djikstra algorithm.</b>
 
-            </p>
+            </p></font>
           </div>
         </div>
       </div>
@@ -131,14 +252,15 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <img src="images/stg.png" height="200px" style="margin: 20px 0px 0px 50px"></img>
+            <img src="images/roguelike_rts.gif" height="200px" style="margin: 20px 0px 0px 50px"></img>
           </div>
           <div class="col-md-6">
-            <h2>Text-based strategy game</h2>
-            <p>Turn-based, text-based strategy game </br>
+            <h2>Text-based 2D strategy game</h2>
+            <b><i style="color: #0E6251;">Java</i></b></br></br>
+            <font size="3"><p>Turn-based, text-based strategy game </br>
               player have to build army and control strategic points to defeat his opponent. </br>
-              AI player generates influence map to decide whether to advance or retreat
-            </p>
+              <b>AI player generates influence map</b> to decide whether to advance or retreat.
+            </p></font>
           </div>
         </div>
       </div>
@@ -150,24 +272,24 @@
         <div class="row">
           <div id="sidebarHidden" vertical-align="center" class="right-overlap">
             <ul class="list-unstyled"  style="padding:10px;">
-              <h3><button type="button" onclick="pinSidebar()" class="btn btn-lg btn-default">⇩ My Projects</button></h3>
+              <h3><button type="button" onclick="pinSidebar()" class="btn btn-lg btn-default">⇩ My profile</button></h3>
               <li><p><a href="index.html" id="b"><span class="glyphicon glyphicon-home gi-10x"></span></a></p></li>
-              <li><p><a href="myProfile.html"><span class="glyphicon glyphicon-user gi-10x"></span></a></p></li>
-              <li><p><a href="myTimeline.html"><span class="glyphicon glyphicon-road gi-10x"></span></a></p></li>
+              <li><p><a href="myTimeline.html"><span class="glyphicon glyphicon-user gi-10x"></span></a></p></li>
+              <li><p><a href="myProfile.html"><span class="glyphicon glyphicon-road gi-10x"></span></a></p></li>
               <li><p><a href="compStuff.html"><span class="glyphicon glyphicon-file gi-10x"></span></a></p></li>
-              <li><p><a href="contactMe.html"><span class="glyphicon glyphicon-envelope gi-10x"></span></a></p></li>
+              <!--<li><p><a href="contactMe.html"><span class="glyphicon glyphicon-envelope gi-10x"></span></a></p></li>-->
             </ul>
           </div>
           <div id="sidebarBack" vertical-align="center" class="right-overlap-menu transparent-back">
           </div>
           <div id="sidebarShown" vertical-align="center" class="right-overlap">
             <ul id="sidebarList" class="fade list-unstyled"  style="padding:10px;">
-              <h3><button type="button" onclick="pinSidebar()" class="btn btn-lg btn-default">⇩ My Projects</button></h3>
+              <h3><button type="button" onclick="pinSidebar()" class="btn btn-lg btn-default">⇩ My profile</button></h3>
               <li><p><a href="index.html"><span class="glyphicon glyphicon-home"><a href="index.html"style="font-family:Helvetica;">  Profile</a></span></a></p></li>
-              <li><p><a href="myProfile.html"><span class="glyphicon glyphicon-user gi-10x"><a href="myProfile.html"style="font-family:Helvetica;">  Experiences</a></span></a></p></li>
-              <li><p><a href="myTimeline.html"><span class="glyphicon glyphicon-road gi-10x"><a href="myTimeline.html"style="font-family:Helvetica;">  Timeline</a></span></a></p></li>
-              <li><p><a href="compStuff.html"><span class="glyphicon glyphicon-file gi-10x"><a href="compStuff.html"style="font-family:Helvetica;">  Portfolio</a></span></a></p></li>
-              <li><p><a href="contactMe.html"><span class="glyphicon glyphicon-envelope gi-10x"><a href="contactMe.html"style="font-family:Helvetica;">  Contact</a></span></a></p></li>
+              <li><p><a href="myTimeline.html"><span class="glyphicon glyphicon-user gi-10x"><a href="myTimeline.html"style="font-family:Helvetica;">  Timeline</a></span></a></p></li>
+              <li><p><a href="myProfile.html"><span class="glyphicon glyphicon-road gi-10x"><a href="myProfile.html"style="font-family:Helvetica;">  Experiences</a></span></a></p></li>
+              <li><p><a href="compStuff.html"><span class="glyphicon glyphicon-file gi-10x"><a href="compStuff.html"style="font-family:Helvetica;">  Software Projects</a></span></a></p></li>
+              <!--<li><p><a href="contactMe.html"><span class="glyphicon glyphicon-envelope gi-10x"><a href="contactMe.html"style="font-family:Helvetica;">  Contact</a></span></a></p></li>-->
             </ul>
           </div>
 
